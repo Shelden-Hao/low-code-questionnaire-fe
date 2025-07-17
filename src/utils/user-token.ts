@@ -1,6 +1,6 @@
 /**
  * @description 存储/获取 user token
- * @author 双越老师
+ * @author Heo Hao
  */
 
 const KEY = 'USER_TOKEN'

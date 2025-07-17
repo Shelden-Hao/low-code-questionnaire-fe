@@ -1,6 +1,6 @@
 /**
  * @description 问卷 - 段落
- * @author 双越老师
+ * @author Heo Hao
  */
 
 import Component from './Component'

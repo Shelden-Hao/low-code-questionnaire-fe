@@ -38,10 +38,10 @@
     "build": "craco build",
     "test": "craco test --watchAll=false",
     "eject": "react-scripts eject",
-    "lint": " eslint 'src/**/*.+(js|ts|jsx|tsx)' ",
-    "format": " prettier --write 'src/**/*.+(js|ts|jsx|tsx)' ",
+    "lint": "npx eslint --ext .js,.ts,.jsx,.tsx src/",
+    "format": "npx prettier --write \"src/**/*.{js,ts,jsx,tsx}\"",
     "prepare": "husky install",
-    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "analyze": "source-map-explorer build/static/js/*.js",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
   },

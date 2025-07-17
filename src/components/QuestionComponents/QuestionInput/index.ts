@@ -1,6 +1,6 @@
 /**
  * @description 问卷 输入框
- * @author 双越老师
+ * @author Heo Hao
  */
 
 import Component from './Component'
